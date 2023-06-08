@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9248DC8F2A30D48E00CFFE47 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9248DC8E2A30D48E00CFFE47 /* main.c */; };
+		9248DCA42A31AADE00CFFE47 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9248DCA32A31AADE00CFFE47 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9248DC892A30D48E00CFFE47 /* CopyFiles */ = {
+		9248DC9E2A31AADE00CFFE47 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,13 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9248DC8B2A30D48E00CFFE47 /* Ubuntu */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ubuntu; sourceTree = BUILT_PRODUCTS_DIR; };
-		9248DC8E2A30D48E00CFFE47 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		9248DC962A316F3200CFFE47 /* Num_length_print.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Num_length_print.h; sourceTree = "<group>"; };
+		9248DCA02A31AADE00CFFE47 /* Ubantu_end */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ubantu_end; sourceTree = BUILT_PRODUCTS_DIR; };
+		9248DCA32A31AADE00CFFE47 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9248DC882A30D48E00CFFE47 /* Frameworks */ = {
+		9248DC9D2A31AADE00CFFE47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,66 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9248DC822A30D48E00CFFE47 = {
+		9248DC972A31AADE00CFFE47 = {
 			isa = PBXGroup;
 			children = (
-				9248DC8D2A30D48E00CFFE47 /* Ubuntu */,
-				9248DC8C2A30D48E00CFFE47 /* Products */,
+				9248DCA22A31AADE00CFFE47 /* Ubantu_end */,
+				9248DCA12A31AADE00CFFE47 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9248DC8C2A30D48E00CFFE47 /* Products */ = {
+		9248DCA12A31AADE00CFFE47 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9248DC8B2A30D48E00CFFE47 /* Ubuntu */,
+				9248DCA02A31AADE00CFFE47 /* Ubantu_end */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9248DC8D2A30D48E00CFFE47 /* Ubuntu */ = {
+		9248DCA22A31AADE00CFFE47 /* Ubantu_end */ = {
 			isa = PBXGroup;
 			children = (
-				9248DC8E2A30D48E00CFFE47 /* main.c */,
-				9248DC962A316F3200CFFE47 /* Num_length_print.h */,
+				9248DCA32A31AADE00CFFE47 /* main.c */,
 			);
-			path = Ubuntu;
+			path = Ubantu_end;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9248DC8A2A30D48E00CFFE47 /* Ubuntu */ = {
+		9248DC9F2A31AADE00CFFE47 /* Ubantu_end */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9248DC922A30D48E00CFFE47 /* Build configuration list for PBXNativeTarget "Ubuntu" */;
+			buildConfigurationList = 9248DCA72A31AADE00CFFE47 /* Build configuration list for PBXNativeTarget "Ubantu_end" */;
 			buildPhases = (
-				9248DC872A30D48E00CFFE47 /* Sources */,
-				9248DC882A30D48E00CFFE47 /* Frameworks */,
-				9248DC892A30D48E00CFFE47 /* CopyFiles */,
+				9248DC9C2A31AADE00CFFE47 /* Sources */,
+				9248DC9D2A31AADE00CFFE47 /* Frameworks */,
+				9248DC9E2A31AADE00CFFE47 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Ubuntu;
-			productName = Ubuntu;
-			productReference = 9248DC8B2A30D48E00CFFE47 /* Ubuntu */;
+			name = Ubantu_end;
+			productName = Ubantu_end;
+			productReference = 9248DCA02A31AADE00CFFE47 /* Ubantu_end */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9248DC832A30D48E00CFFE47 /* Project object */ = {
+		9248DC982A31AADE00CFFE47 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					9248DC8A2A30D48E00CFFE47 = {
+					9248DC9F2A31AADE00CFFE47 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = 9248DC862A30D48E00CFFE47 /* Build configuration list for PBXProject "Ubuntu" */;
+			buildConfigurationList = 9248DC9B2A31AADE00CFFE47 /* Build configuration list for PBXProject "Ubantu_end" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -106,29 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 9248DC822A30D48E00CFFE47;
-			productRefGroup = 9248DC8C2A30D48E00CFFE47 /* Products */;
+			mainGroup = 9248DC972A31AADE00CFFE47;
+			productRefGroup = 9248DCA12A31AADE00CFFE47 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9248DC8A2A30D48E00CFFE47 /* Ubuntu */,
+				9248DC9F2A31AADE00CFFE47 /* Ubantu_end */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9248DC872A30D48E00CFFE47 /* Sources */ = {
+		9248DC9C2A31AADE00CFFE47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9248DC8F2A30D48E00CFFE47 /* main.c in Sources */,
+				9248DCA42A31AADE00CFFE47 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9248DC902A30D48E00CFFE47 /* Debug */ = {
+		9248DCA52A31AADE00CFFE47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -186,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		9248DC912A30D48E00CFFE47 /* Release */ = {
+		9248DCA62A31AADE00CFFE47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -237,7 +235,7 @@
 			};
 			name = Release;
 		};
-		9248DC932A30D48E00CFFE47 /* Debug */ = {
+		9248DCA82A31AADE00CFFE47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -245,7 +243,7 @@
 			};
 			name = Debug;
 		};
-		9248DC942A30D48E00CFFE47 /* Release */ = {
+		9248DCA92A31AADE00CFFE47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -256,25 +254,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9248DC862A30D48E00CFFE47 /* Build configuration list for PBXProject "Ubuntu" */ = {
+		9248DC9B2A31AADE00CFFE47 /* Build configuration list for PBXProject "Ubantu_end" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9248DC902A30D48E00CFFE47 /* Debug */,
-				9248DC912A30D48E00CFFE47 /* Release */,
+				9248DCA52A31AADE00CFFE47 /* Debug */,
+				9248DCA62A31AADE00CFFE47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9248DC922A30D48E00CFFE47 /* Build configuration list for PBXNativeTarget "Ubuntu" */ = {
+		9248DCA72A31AADE00CFFE47 /* Build configuration list for PBXNativeTarget "Ubantu_end" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9248DC932A30D48E00CFFE47 /* Debug */,
-				9248DC942A30D48E00CFFE47 /* Release */,
+				9248DCA82A31AADE00CFFE47 /* Debug */,
+				9248DCA92A31AADE00CFFE47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9248DC832A30D48E00CFFE47 /* Project object */;
+	rootObject = 9248DC982A31AADE00CFFE47 /* Project object */;
 }
